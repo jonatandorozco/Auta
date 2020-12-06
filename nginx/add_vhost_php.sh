@@ -22,3 +22,4 @@ server {
     }
 }
 EOM
+ln -s /etc/nginx/sites-available/$host /etc/nginx/sites-enabled/$host
